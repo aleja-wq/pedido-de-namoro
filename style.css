@@ -1,0 +1,51 @@
+ body {
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(255,255,255,0.2);
+            padding: 35px;
+            border-radius: 25px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .coracao {
+            font-size: 65px;
+        }
+
+        button {
+            padding: 13px 25px;
+            border: none;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .sim {
+            background: #ff1744;
+            color: white;
+        }
+
+        .nao {
+            background: white;
+            color: #ff1744;
+        }
+
+        #mensagem {
+            font-size: 22px;
+            margin-top: 20px;
+        }

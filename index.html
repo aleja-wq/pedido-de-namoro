@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um pedido especial ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="coracao">❤️</div>
+
+        <h1>Eu te amo! ❤️</h1>
+
+        <p>
+            Você é uma pessoa muito especial para mim.
+            Quero ter você ao meu lado!
+        </p>
+
+        <h2>Você aceita namorar comigo? 💍</h2>
+
+        <button class="sim" onclick="responder()">
+            SIM ❤️
+        </button>
+
+        <button class="nao" onclick="nao()">
+            NÃO 😢
+        </button>
+
+        <div id="mensagem"></div>
+
+    </div>
+
+    <script>
+        function responder() {
+            document.getElementById("mensagem").innerHTML =
+            "AAAAA! ❤️ Você aceitou! Que nosso começo seja lindo! 💍🥰";
+        }
+
+        function nao() {
+            document.getElementById("mensagem").innerHTML =
+            "Tudo bem! ❤️ Obrigado por ler minha mensagem.";
+        }
+    </script>
+
+</body>
+</html>
